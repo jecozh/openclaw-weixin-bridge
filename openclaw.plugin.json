@@ -1,0 +1,12 @@
+{
+  "id": "weixin-bridge",
+  "name": "WeChat Bridge",
+  "description": "WeChat message handler + iLink send API",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "httpPort": { "type": "number", "default": 9201 }
+    },
+    "additionalProperties": false
+  }
+}
